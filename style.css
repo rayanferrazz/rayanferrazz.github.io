@@ -1,0 +1,89 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+::selection {
+    color: #FFFFFF;
+    background: #000000;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #BDB76B;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #696969;
+    border-radius: 30px;
+}
+
+button {
+    border: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: #FFA500;
+    box-shadow: 2px 2px 4px #4C4C4C;
+}
+
+#empresas {
+    display: grid;
+    justify-content: center;
+}
+
+.images {
+    display: grid;
+    justify-content: center;
+    width: 110px;
+    height: auto;
+    margin: 20px;
+}
+
+.graficos {
+    display: grid;
+    justify-content: center;
+    height: auto;
+}
+
+.fonte1,
+.fonte2 {
+    text-align: center;
+    color: #00008B;
+}
+
+a {
+    color: #00008B;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+hr {
+    border-color: darkgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+body {
+    background-color: #FFFACD;
+}
